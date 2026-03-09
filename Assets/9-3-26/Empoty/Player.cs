@@ -14,4 +14,14 @@ public class Player : MonoBehaviour
     {
         Debug.Log(playerName + " jumped.");
     }
+
+    protected virtual void TakeDamage(int damage)
+    {
+        
+    }
+
+    protected virtual void Die()
+    {
+        
+    }
 }
