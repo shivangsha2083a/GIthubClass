@@ -151,9 +151,9 @@ MonoBehaviour:
   OnSpacePressed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1477050061}
-        m_TargetAssemblyTypeName: Enemy_Exarch, Assembly-CSharp
-        m_MethodName: TakeDamage
+      - m_Target: {fileID: 586185782}
+        m_TargetAssemblyTypeName: NPC_Leon, Assembly-CSharp
+        m_MethodName: ApplyDamageToNPC
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -359,6 +359,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &586185781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 586185783}
+  - component: {fileID: 586185782}
+  m_Layer: 0
+  m_Name: NPC_Leon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &586185782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586185781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a5180ed45d42618f46e2f80b7e9448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC_Leon
+  playerName: Leon
+  health: 100
+--- !u!4 &586185783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586185781}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.23724, y: 5.40928, z: -7.01874}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &735744184
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,7 +710,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430500785}
   m_CullTransparentMesh: 1
---- !u!1 &1477050060
+--- !u!1 &1955875339
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -672,34 +718,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1477050062}
-  - component: {fileID: 1477050061}
+  - component: {fileID: 1955875341}
+  - component: {fileID: 1955875340}
   m_Layer: 0
-  m_Name: Enemy_Exarch
+  m_Name: Stronger_Exarch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1477050061
+  m_IsActive: 0
+--- !u!114 &1955875340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477050060}
+  m_GameObject: {fileID: 1955875339}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b0d1a24e8e8b7147b4ca368fc0f08dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e43a136a847a4b40b063575f89e17fb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy_Exarch
---- !u!4 &1477050062
+  m_EditorClassIdentifier: Assembly-CSharp::Stronger_Exarch
+--- !u!4 &1955875341
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477050060}
+  m_GameObject: {fileID: 1955875339}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.23724, y: 5.40928, z: -7.01874}
@@ -717,4 +763,5 @@ SceneRoots:
   - {fileID: 17886833}
   - {fileID: 938981313}
   - {fileID: 735744186}
-  - {fileID: 1477050062}
+  - {fileID: 1955875341}
+  - {fileID: 586185783}

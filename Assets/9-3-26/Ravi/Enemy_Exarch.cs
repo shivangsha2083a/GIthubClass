@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Enemy_Exarch : MonoBehaviour, IDamageable
 {
-    private int damageCounter;
+    protected int damageCounter;
     public void TakeDamage(int damage)
     {
         Debug.Log($"Enemy took {damage} damage");
