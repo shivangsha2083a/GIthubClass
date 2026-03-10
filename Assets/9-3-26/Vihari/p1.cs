@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class p1 : MonoBehaviour
 {
     public string playerName;
     public int health = 100;
@@ -13,15 +13,5 @@ public class Player : MonoBehaviour
     public void Jump()
     {
         Debug.Log(playerName + " jumped.");
-    }
-
-    protected virtual void TakeDamage(int damage)
-    {
-        
-    }
-
-    protected virtual void Die()
-    {
-        
     }
 }
