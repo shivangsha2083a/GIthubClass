@@ -3,7 +3,7 @@ using UnityEngine;
 public class Super_Enemy : NPC_Vihari_Parent
 {
     int count = 0;
-    int health = 10;
+    int Ehealth = 10;
     public override void Die()
     {
         Debug.Log(playerName + "says: How is this possible?");
@@ -11,16 +11,16 @@ public class Super_Enemy : NPC_Vihari_Parent
 
     public override void TakeDamage(int damage)
     {
-        if (health > 5)
+        if (Ehealth > 5)
         {
             count++;
             Debug.Log(playerName + "says: Try harder");
         }
         else
         {
-            health = health - damage;
+            Ehealth = Ehealth - damage;
         }
-        if (health == 0)
+        if (Ehealth == 0)
         {
             Die();
         }
