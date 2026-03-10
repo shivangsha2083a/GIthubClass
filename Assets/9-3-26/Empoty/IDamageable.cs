@@ -1,5 +1,9 @@
+using Unity.VisualScripting;
+
 public interface IDamageable
 {
-    public void TakeDamage(int damage);
-    public void Die();
+
+    void TakeDamage(int damage);
+    void Die();
+
 }
