@@ -6,7 +6,6 @@ public class NPC_Leon : NPC_Leon_Parent
     {
         TakeDamage(damage);
     }
-    
     protected override void TakeDamage(int damage)
     {
         Debug.Log("Invulnerable aka Immortal");
