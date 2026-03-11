@@ -1,3 +1,16 @@
 {
-	"name": "Pratyush"
+    "name": "Pratyush",
+    "rootNamespace": "",
+    "references": [
+        "GUID:31b84020476427143a4991be2e3082fa"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
