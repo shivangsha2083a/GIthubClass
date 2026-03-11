@@ -1,3 +1,16 @@
 {
-	"name": "RaviAssemblyDef"
+    "name": "RaviAssemblyDef",
+    "rootNamespace": "",
+    "references": [
+        "GUID:716229f43ebcf0941bf1f99a03a018c0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
