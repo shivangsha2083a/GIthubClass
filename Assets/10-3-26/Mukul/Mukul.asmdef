@@ -1,3 +1,16 @@
 {
-	"name": "Mukul"
+    "name": "Mukul",
+    "rootNamespace": "",
+    "references": [
+        "GUID:44433362125287c4c88059a09b62754b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
