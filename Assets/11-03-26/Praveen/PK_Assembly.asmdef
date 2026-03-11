@@ -1,8 +1,8 @@
 {
-    "name": "Praveen_Assembly",
+    "name": "PK_Assembly",
     "rootNamespace": "",
     "references": [
-        "PK_Assembly"
+        ""
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
