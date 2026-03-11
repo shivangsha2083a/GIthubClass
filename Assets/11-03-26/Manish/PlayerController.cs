@@ -1,12 +1,11 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    public PlayerController playerController;  
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Player script has started.");
+        Debug.Log("PlayerController Started");
     }
 
     // Update is called once per frame

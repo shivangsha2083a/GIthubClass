@@ -1,3 +1,16 @@
 {
-	"name": "NewAssembly_Manish"
+    "name": "NewAssembly_Manish",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b5606e5325334614cb7ed8059b055265"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
