@@ -151,7 +151,7 @@ MonoBehaviour:
   OnSpacePressed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 874434883}
         m_TargetAssemblyTypeName: Player, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 1
@@ -163,12 +163,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  OnSpaceReleased:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAPressed:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &17886833
 Transform:
   m_ObjectHideFlags: 0
@@ -239,7 +233,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -247,6 +240,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!81 &203219610
 AudioListener:
   m_ObjectHideFlags: 0
@@ -511,7 +505,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 874434884}
+  - component: {fileID: 874434883}
   - component: {fileID: 874434885}
+  - component: {fileID: 874434886}
+  - component: {fileID: 874434887}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -519,6 +516,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &874434883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874434882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d51d20752a729404e95aad2347ad6dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
+  playerName: Praveen
+  health: 100
 --- !u!4 &874434884
 Transform:
   m_ObjectHideFlags: 0
@@ -543,9 +554,41 @@ MonoBehaviour:
   m_GameObject: {fileID: 874434882}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1746eae6affea3d48ac0b680e1805078, type: 3}
+  m_Script: {fileID: 11500000, guid: 67771eb3c32e32d428ab7e2d1d061600, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::FunctionAssig_Praveen
+  OnSpacePressed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &874434886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874434882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842f75dd1339f2b488464563c6d42f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy_Praveen
+  damage: 10
+  health: 50
+--- !u!114 &874434887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874434882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197a2ea1116ea3b4096bd0e2d03f063c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StrongerEnemy_Praveen
+  damage: 100
+  health: 100
+  block: 5
 --- !u!1 &1403411004
 GameObject:
   m_ObjectHideFlags: 0
