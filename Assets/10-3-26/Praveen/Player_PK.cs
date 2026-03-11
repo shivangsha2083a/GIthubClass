@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class Player_PK : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public PlayerController controller;
+ 
     void Start()
     {
-        Debug.Log("tesing");
+        Debug.Log("Tesing");
     }
 
 }
