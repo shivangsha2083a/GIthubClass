@@ -1,5 +1,13 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Mukul.csproj" />
   <Project Path="sairam.csproj" />
+  <Project Path="Harshith.csproj" />
+  <Project Path="Praveen_Assembly.csproj" />
+  <Project Path="RaviAssemblyDef.csproj" />
+  <Project Path="Pratyush.csproj" />
+  <Project Path="NewAssembly_Manish.csproj" />
+  <Project Path="NewAssembly.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="sairam_11_03_26.csproj" />
 </Solution>
