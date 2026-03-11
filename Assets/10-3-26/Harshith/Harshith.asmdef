@@ -1,3 +1,16 @@
 {
-	"name": "Harshith"
+    "name": "Harshith",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4facc00008738a445971b72ea3c94e2c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
