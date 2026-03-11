@@ -1,5 +1,5 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp.csproj" />
-  <Project Path="NewAssembly_Manish.csproj" />
+  <Project Path="sairam.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
 </Solution>
