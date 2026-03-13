@@ -6,7 +6,6 @@ public class Om : MonoBehaviour
 
     public void Start()
     {
-        Debug.Log(PlayerData.Name);
     }
 
 }
