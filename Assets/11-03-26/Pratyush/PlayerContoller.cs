@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerContoller : MonoBehaviour
 {
-    
+  
     void Start()
     {
         Debug.Log("Anything");
