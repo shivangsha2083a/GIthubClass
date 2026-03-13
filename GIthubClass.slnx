@@ -7,6 +7,7 @@
   <Project Path="Praveen_Assembly.csproj" />
   <Project Path="PK_Assembly.csproj" />
   <Project Path="Ravi10AssemblyDef.csproj" />
+  <Project Path="Assemblydefinition_11.csproj" />
   <Project Path="RaviAssemblyDef.csproj" />
   <Project Path="Pratyush.csproj" />
   <Project Path="NewAssembly_Manish.csproj" />
@@ -14,6 +15,5 @@
   <Project Path="NewAD.csproj" />
   <Project Path="Vihari.csproj" />
   <Project Path="Vihari21.csproj" />
-  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="sairam_11_03_26.csproj" />
 </Solution>
