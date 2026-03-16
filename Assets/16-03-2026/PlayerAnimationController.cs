@@ -17,7 +17,7 @@ public class PlayerAnimationController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
-        animator.SetFloat("Horizontal", horizontalInput);
-        animator.SetFloat("Vertical", verticalInput);
+        animator.SetFloat("xfloat", horizontalInput);
+        animator.SetFloat("yfloat", verticalInput);
     }
 }
