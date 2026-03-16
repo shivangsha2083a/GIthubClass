@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 221595598}
   - component: {fileID: 221595597}
   - component: {fileID: 221595596}
+  - component: {fileID: 221595601}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -149,7 +150,7 @@ Animator:
   m_GameObject: {fileID: 221595595}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 45139b13f0869d1479e905f9a87e669c, type: 2}
+  m_Controller: {fileID: 9100000, guid: a5229c6f5a7d9e641bae92b845b7beae, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -254,6 +255,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &221595601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221595595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e4bf10c27c64584d9c9ae4ee64d386f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CubeAnimationPratyush
+  Anim: {fileID: 221595596}
+  health: 0
 --- !u!1 &487456303
 GameObject:
   m_ObjectHideFlags: 0
