@@ -132,7 +132,6 @@ GameObject:
   - component: {fileID: 269639709}
   - component: {fileID: 269639708}
   - component: {fileID: 269639707}
-  - component: {fileID: 269639706}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -140,20 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &269639706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269639705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d87a5f0162a6ef459728bb305fc52c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimationController
-  horizontalInput: 0
-  verticalInput: 0
 --- !u!95 &269639707
 Animator:
   serializedVersion: 7
