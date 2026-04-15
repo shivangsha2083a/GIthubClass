@@ -2,9 +2,9 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Singelton_GameManager : MonoBehaviour
+public class GameM : MonoBehaviour
 {
-    public static Singelton_GameManager Instance;
+    public static GameM Instance;
 
     public UnityEvent OnBossSpawned;
 
