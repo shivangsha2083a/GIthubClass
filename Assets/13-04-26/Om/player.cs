@@ -1,18 +1,17 @@
-using System;
 using UnityEngine;
 
-public class Sing_Player : MonoBehaviour
+public class player : MonoBehaviour
 {
-    private void Awake()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private void Start()
     {
-        Singelton_GameManager.Instance.StartGame();
-
-        Singelton_GameManager.Instance.OnBossSpawned.AddListener(BossSpawned);
-
+        GameM.Instance.StartGame();
+        
     }
 
-    private void BossSpawned()
+    // Update is called once per frame
+    void Update()
     {
-        Debug.Log("BossSpawned");
+        
     }
 }
